@@ -61,7 +61,7 @@
     "Cartão de Crédito",
     "Cartão de Débito"
   ],
-  "whatsappCatalogLink": "",
+  "whatsappCatalogLink": "https://wa.me/c/558494777280",
   "enableWhatsappButtons": true,
   "socialMedia": [
     {
@@ -93,51 +93,95 @@
     {
       "image": "https://netyvariedads.wordpress.com/wp-content/uploads/2020/01/20200123_091816.jpg?w=1024",
       "caption": "Ambiente interno 3"
+    },
+    {
+      "image": "https://netyvariedads.wordpress.com/wp-content/uploads/2020/01/20200123_091801.jpg?w=1024",
+      "caption": "Ambiente interno 4"
+    },
+    {
+      "image": "https://netyvariedads.wordpress.com/wp-content/uploads/2020/01/20200123_091751.jpg?w=1024",
+      "caption": "Ambiente interno 5"
     }
+
+
+  
   ],
   "offers": [
     {
       "title": "Cerveja Devassa Puro Malte 350ml (Pack c/ 12)",
       "description": "Devassa é a cerveja puro malte tropical. Uma cerveja equilibrada, refrescante e fácil de beber, com espuma cremosa e sabor único. A Devassa Puro Malte é produzida com apenas quatro ingredientes: água, lúpulo, malte e levedura. O que garante uma cerveja com mais harmonia, mais encorpada e uma cor muito mais dourada. E você sabe porque a Devassa Puro Malte Tropical é diferente de todas as outras cervejas? Ela foi feita para nosso clima, com menos amargor no paladar e que dá aquela vontade de calçar o chinelo e sair por aí aproveitando o dia. Harmonize a sua cerveja Devassa Puro Malte Tropical com praia, bons amigos e com aquele fim de tarde especial. Devassa. É puro malte. É tropical.",
       "oldPrice": "45,00",
-      "newPrice": "39,90",
-      "image": "https://ibassets.com.br/ib.item.image.large/l-663767b9d71f4d308b81ce1a54d3fd37.png"
+      "newPrice": "39,50",
+      "image": "https://cdn.shopify.com/s/files/1/0579/9742/6861/files/7898904771613_0.jpg?v=1752000806"
     },
     {
-      "title": "",
-      "description": "Produzido com água potável, o gelo em cubos é muito utilizado diretamente nas bebidas, tanto no dia a dia da família, quanto também em bares e restaurantes, na preparação de sucos e coquetéis.",
+      "title": "Cerveja Heineken Long Neck 330ml",
+      "description": "A cerveja Heineken Long Neck 330ml é uma lager premium com teor alcoólico de 5%, feita com ingredientes naturais como água, malte e lúpulo, e possui sabor levemente amargo, refrescante e com tons frutados. É reconhecida por seu equilíbrio e características como coloração dourada e aroma com notas de panificação e lúpulo. Sua embalagem long neck é prática, ideal para ser apreciada em diversos momentos. ",
       "oldPrice": "8,90",
-      "newPrice": "5,99",
-      "image": "https://courier-images-prod.imgix.net/produc_variant/00008979_35dac32b-11d5-4e9f-b844-bf593f806c26.jpg?auto=compress,format&fit=max&w=undefined&h=undefined&dpr=2?auto=compress,format&fit=max&w=undefined&h=undefined&dpr=2"
+      "newPrice": "6,69",
+      "image": "https://www.imigrantesbebidas.com.br/img/bebida/images/products/full/222-cerveja-heineken-long-neck-330ml.jpg?s=fcdce4f464c4a30bbdfa97471329ca07"
     },
     {
-      "title": "",
-      "description": "",
-      "oldPrice": "",
-      "newPrice": "",
-      "image": ""
+      "title": "Cerveja Império Pilsen 3.0 Puro Malte 350ml",
+      "description": "O pacote de 12 latas de cerveja Itaipava 473ml indica que se trata de uma cerveja estilo Pilsen, com teor alcoólico de 4.8% e 46 kcal por 100ml. Ela é uma cerveja brasileira clara, refrescante, com sabor leve e baixo amargor, elaborada com água, malte de cevada, carboidratos e lúpulo. A embalagem prática de lata é ideal para ocasiões como churrascos e festas.",
+      "oldPrice": "5,00",
+      "newPrice": "2,99",
+      "image": "https://tfchgi.vteximg.com.br/arquivos/ids/179570-1000-1000/62045.png.png?v=638758348528300000"
+    },
+    {
+      "title": "Café Moído Santa Clara Almofada 250g",
+      "description": "O Café Moído Santa Clara Almofada 250g é uma opção de café torrado e moído, disponível em diferentes versões como Clássico e Premium, que se destacam por seu equilíbrio entre sabor, aroma e corpo, ideal para o consumo diário. A embalagem almofada de 250g oferece praticidade e a garantia de um café de qualidade que acompanha diferentes momentos do dia.",
+      "oldPrice": "26,80",
+      "newPrice": "17,49",
+      "image": "https://tfchgi.vteximg.com.br/arquivos/ids/166150-592-592/7896224813082.jpg?v=637777887927630000"
+    },
+    {
+      "title": "Macarrão Espaguete Sêmola Vitarella 400g",
+      "description": "O macarrão Vitarella 400g é uma massa de espaguete (na versão mais comum encontrada) feita com farinha de trigo e sêmola enriquecida com ferro e ácido fólico, contendo glúten. Alérgicos devem ter atenção, pois contém derivados de trigo e pode conter traços de aveia, centeio, cevada, ovos e soja. ",
+      "oldPrice": "5,00",
+      "newPrice": "3,90",
+      "image": "https://vitarella.com.br/wp-content/uploads/2020/11/Espaguete_Fino_400g-792x792-1-1-737x737.png"
+    },
+    {
+      "title": "Arroz Branco Tipo 1 São Joaquim 1 Kg",
+      "description": "O Arroz Branco Tipo 1 São Joaquim 1 Kg é um arroz selecionado de alta qualidade, com grãos limpos, inteiros e sem defeitos, ideal para o preparo de diversas refeições do dia a dia. A classificação \"Tipo 1\" indica que ele possui o menor percentual de grãos quebrados e impurezas, garantindo um arroz mais soltinho e branco após o cozimento.",
+      "oldPrice": "8,99",
+      "newPrice": "6,99",
+      "image": "https://ibassets.com.br/ib.item.image.large/l-2270821f96234ad7a08f4fbd9cfa7bc5.jpg"
     }
+
   ],
   "catalog": [
     {
-      "name": "Produto 1",
-      "description": "Descrição do produto 1",
-      "image": "https://via.placeholder.com/300x200/6366f1/ffffff?text=Produto+1"
+      "name": "Biscoito Recheado de Chocolate Treloso Vitarella 74g",
+      "description": "O biscoito recheado de chocolate Treloso Vitarella 74g é\num biscoito crocante com recheio cremoso de chocolate, ideal para consumo individual ou para pequenos comércios. A embalagem de 74g é prática e contém ingredientes como farinha de trigo, açúcar, gordura vegetal, cacau em pó e lecitina de soja, e possui contaminação de glúten e lactose",
+      "image": "https://vitarella.com.br/wp-content/uploads/2021/02/treloso-chocolate-1.png"
     },
     {
-      "name": "Produto 2",
-      "description": "Descrição do produto 2",
-      "image": "https://via.placeholder.com/300x200/8b5cf6/ffffff?text=Produto+2"
+      "name": "LEITE UHT INTEGRAL ELEGÊ CAIXA 1L",
+      "description": "O Leite UHT Integral Elegê 1L é um leite integral que passa por tratamento térmico (UHT) para garantir durabilidade, mantendo as propriedades nutricionais do leite fresco\n. É rico em cálcio, proteínas e vitaminas, ideal para consumo direto ou para receitas, e sua embalagem Tetra Pak de 1 litro ajuda a preservar o produto. ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8YLxTdEBQ7Nz6tKW2KvGp--69VgQujoG2w&s"
     },
     {
-      "name": "Produto 3",
-      "description": "Descrição do produto 3",
-      "image": "https://via.placeholder.com/300x200/a855f7/ffffff?text=Produto+3"
+      "name": "CREME PARA PENTEAR SEDA COCRIAÇÕES CERAMIDAS BRILHO FRASCO 300ML",
+      "description": "O Creme para Pentear Seda Cocriações Ceramidas Brilho 300ml é\nformulado para fortalecer e dar brilho extra a cabelos normais a levemente danificados, usando o Micro Ceramida Complex para hidratar e dar força. Ele é uma co-criação com o especialista Thomas Taw, deixa o cabelo macio e sedoso sem pesar, facilita o desembaraço, possui proteção UV e tem uma fragrância floral e amadeirada que dura até 24 horas.",
+      "image": "https://cdn-cosmos.bluesoft.com.br/products/7891150055667"
     },
     {
-      "name": "Produto 4",
-      "description": "Descrição do produto 4",
-      "image": "https://via.placeholder.com/300x200/c084fc/ffffff?text=Produto+4"
+      "name": "ADOÇANTE LÍQUIDO SACARINA ZERO CAL FRASCO 100ML",
+      "description": "O Adoçante Líquido Sacarina Zero-Cal em frasco de 100ml é\num adoçante dietético sem calorias, feito com sacarina sódica e ciclamato de sódio, ideal para adoçar bebidas e alimentos quentes e frios. É prático para uso diário, adequado para quem busca reduzir o consumo de açúcar, para dietas restritivas e para pessoas com diabetes, por não elevar o nível de açúcar no sangue.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS23q0hG_4Dszny0kdoI4Fa9BWAlRoXzIcXeg&s"
+    },
+    {
+      "name": "SABONETE BARRA ERVA-DOCE E ALECRIM EVEN ENVOLTÓRIO 85G",
+      "description": "O Sabonete Barra Erva-Doce e Alecrim Even de 85g é um produto de higiene pessoal que limpa a pele, combinando a fragrância de erva-doce com o frescor do alecrim, proporcionando uma experiência perfumada e revigorante. A fórmula contém ingredientes para limpar delicadamente sem ressecar, deixando a pele com uma sensação suave e agradável. ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo9m57NY0BldPmfvIMQt4g7Knna3LlW8UZjA&s"
+    },
+    {
+      "name": "FIAMBRE DE CARNE KITUT 320G",
+      "description": "O fiambre de carne Kitut 320g é uma carne enlatada, também conhecida como \"carne de cortar\", feita com uma mistura de carne bovina, suína e de aves. É um produto tradicional que pode ser consumido frio em sanduíches ou aperitivos, ou preparado de diversas formas, como frito à milanesa. Possui uma textura firme, coloração rosada e é uma fonte de proteína",
+      "image": "https://tfchgi.vteximg.com.br/arquivos/ids/177449-1000-1000/kitut.gif?v=638519985318930000s"
     }
+    
   ]
 }

@@ -17,7 +17,7 @@ body {
 }
 
 .admin-header {
-    background: linear-gradient(135deg, #2563eb, #1e40af);
+    background: linear-gradient(135deg, #eb2525, #fffc01);
     color: white;
     padding: 20px 30px;
     display: flex;
