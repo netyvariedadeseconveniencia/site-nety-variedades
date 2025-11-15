@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo v3</title>
+    <link rel="stylesheet" href="admin-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <header class="admin-header">
+            <h1><i class="fas fa-cog"></i> Painel Administrativo v3</h1>
+            <div class="header-actions">
+                <button id="preview-site" class="btn btn-secondary">
+                    <i class="fas fa-eye"></i> Ver Site
+                </button>
+                <button id="save-changes" class="btn btn-primary">
+                    <i class="fas fa-save"></i> Salvar Alterações
+                </button>
+            </div>
+        </header>
+
+        <div class="admin-content">
+            <aside class="admin-sidebar">
+                <nav class="admin-nav">
+                    <button class="nav-btn active" data-section="basic">
+                        <i class="fas fa-info-circle"></i> Informações Básicas
+                    </button>
+                    <button class="nav-btn" data-section="hero">
+                        <i class="fas fa-star"></i> Seção Principal
+                    </button>
+                    <button class="nav-btn" data-section="about">
+                        <i class="fas fa-building"></i> Sobre a Empresa
+                    </button>
+                    <button class="nav-btn" data-section="hours">
+                        <i class="fas fa-clock"></i> Horário
+                    </button>
+                    <button class="nav-btn" data-section="payment">
+                        <i class="fas fa-credit-card"></i> Pagamento
+                    </button>
+                    <button class="nav-btn" data-section="gallery">
+                        <i class="fas fa-images"></i> Galeria
+                    </button>
+                    <button class="nav-btn" data-section="offers">
+                        <i class="fas fa-tags"></i> Ofertas
+                    </button>
+                    <button class="nav-btn" data-section="catalog">
+                        <i class="fas fa-box"></i> Catálogo
+                    </button>
+                    <button class="nav-btn" data-section="whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button class="nav-btn" data-section="social">
+                        <i class="fas fa-share-alt"></i> Redes Sociais
+                    </button>
+                    <button class="nav-btn" data-section="location">
+                        <i class="fas fa-map-marker-alt"></i> Localização
+                    </button>
+                </nav>
+            </aside>
+
+            <main class="admin-main">
+                <!-- Informações Básicas -->
+                <section id="section-basic" class="admin-section active">
+                    <h2>Informações Básicas</h2>
+                    <div class="form-group">
+                        <label for="company-name-input">Nome da Empresa</label>
+                        <input type="text" id="company-name-input" placeholder="Digite o nome da empresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="company-logo-input">URL do Logo</label>
+                        <input type="text" id="company-logo-input" placeholder="https://i.imgur.com/abc123.png">
+                        <small>Hospede no Imgur e cole o link direto da imagem</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="company-cnpj-input">CNPJ (opcional)</label>
+                        <input type="text" id="company-cnpj-input" placeholder="00.000.000/0000-00">
+                    </div>
+                </section>
+
+                <!-- Seção Principal -->
+                <section id="section-hero" class="admin-section">
+                    <h2>Seção Principal (Hero)</h2>
+                    <div class="form-group">
+                        <label for="hero-title-input">Título Principal</label>
+                        <input type="text" id="hero-title-input" placeholder="Bem-vindo à nossa empresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="hero-subtitle-input">Subtítulo</label>
+                        <input type="text" id="hero-subtitle-input" placeholder="Qualidade e excelência">
+                    </div>
+                </section>
+
+                <!-- Sobre -->
+                <section id="section-about" class="admin-section">
+                    <h2>Sobre a Empresa</h2>
+                    <div class="form-group">
+                        <label for="description-input">Descrição</label>
+                        <textarea id="description-input" rows="5" placeholder="Conte sobre sua empresa..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-input">Telefone</label>
+                        <input type="tel" id="phone-input" placeholder="(84) 99999-9999">
+                    </div>
+                    <div class="form-group">
+                        <label for="email-input">E-mail</label>
+                        <input type="email" id="email-input" placeholder="contato@empresa.com">
+                    </div>
+                </section>
+
+                <!-- Horário -->
+                <section id="section-hours" class="admin-section">
+                    <h2>Horário de Funcionamento</h2>
+                    <p class="help-text">Configure o horário para cada dia da semana</p>
+                    <div id="hours-list" class="hours-config">
+                        <!-- Será preenchido pelo JS -->
+                    </div>
+                </section>
+
+                <!-- Pagamento -->
+                <section id="section-payment" class="admin-section">
+                    <h2>Formas de Pagamento</h2>
+                    <div id="payment-checkboxes" class="payment-checkboxes">
+                        <label><input type="checkbox" value="PIX"> PIX</label>
+                        <label><input type="checkbox" value="Dinheiro"> Dinheiro</label>
+                        <label><input type="checkbox" value="Cartão de Crédito"> Cartão de Crédito</label>
+                        <label><input type="checkbox" value="Cartão de Débito"> Cartão de Débito</label>
+                        <label><input type="checkbox" value="Transferência"> Transferência</label>
+                        <label><input type="checkbox" value="Boleto"> Boleto</label>
+                    </div>
+                </section>
+
+                <!-- Galeria -->
+                <section id="section-gallery" class="admin-section">
+                    <h2>Galeria de Imagens</h2>
+                    <div id="gallery-list" class="item-list"></div>
+                    <button id="add-gallery-item" class="btn btn-success">
+                        <i class="fas fa-plus"></i> Adicionar Imagem
+                    </button>
+                </section>
+
+                <!-- Ofertas -->
+                <section id="section-offers" class="admin-section">
+                    <h2>Ofertas Especiais</h2>
+                    <div id="offers-list" class="item-list"></div>
+                    <button id="add-offer-item" class="btn btn-success">
+                        <i class="fas fa-plus"></i> Adicionar Oferta
+                    </button>
+                </section>
+
+                <!-- Catálogo -->
+                <section id="section-catalog" class="admin-section">
+                    <h2>Catálogo de Produtos</h2>
+                    <div id="catalog-list" class="item-list"></div>
+                    <button id="add-catalog-item" class="btn btn-success">
+                        <i class="fas fa-plus"></i> Adicionar Produto
+                    </button>
+                </section>
+
+                <!-- WhatsApp -->
+                <section id="section-whatsapp" class="admin-section">
+                    <h2>Integração WhatsApp</h2>
+                    <div class="form-group">
+                        <label for="whatsapp-input">Número WhatsApp (com código do país)</label>
+                        <input type="text" id="whatsapp-input" placeholder="5584999999999">
+                        <small>Exemplo: 5584999999999 (55 = Brasil, 84 = DDD, resto = número)</small>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="enable-whatsapp-buttons">
+                            Ativar botões "Pedir no WhatsApp" nos produtos
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="whatsapp-catalog-input">Link do Catálogo WhatsApp Business (opcional)</label>
+                        <input type="text" id="whatsapp-catalog-input" placeholder="https://wa.me/c/...">
+                        <small>Se tem catálogo no WhatsApp Business, cole o link aqui</small>
+                    </div>
+                </section>
+
+                <!-- Redes Sociais -->
+                <section id="section-social" class="admin-section">
+                    <h2>Redes Sociais</h2>
+                    <div id="social-list" class="item-list"></div>
+                    <button id="add-social-item" class="btn btn-success">
+                        <i class="fas fa-plus"></i> Adicionar Rede Social
+                    </button>
+                </section>
+
+                <!-- Localização -->
+                <section id="section-location" class="admin-section">
+                    <h2>Localização</h2>
+                    <div class="alert alert-info">
+                        <h4><i class="fas fa-info-circle"></i> Como configurar o Google Maps</h4>
+                        <ol>
+                            <li>Acesse <a href="https://www.google.com/maps" target="_blank">Google Maps</a></li>
+                            <li>Busque o nome da sua empresa ou endereço</li>
+                            <li>Clique em "Compartilhar"</li>
+                        </ol>
+                        <p><strong>Para Link do Google Maps:</strong> Copie o link curto (https://maps.app.goo.gl/...)</p>
+                        <p><strong>Para Link Embed:</strong> Clique em "Incorporar mapa" e copie a URL completa (https://www.google.com/maps/embed?pb=...)</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="address-input">Endereço Completo</label>
+                        <input type="text" id="address-input" placeholder="Rua, número - Cidade, Estado, CEP">
+                    </div>
+                    <div class="form-group">
+                        <label for="maps-link-input">Link do Google Maps</label>
+                        <input type="text" id="maps-link-input" placeholder="https://maps.app.goo.gl/...">
+                        <small>Link para abrir no Google Maps (botão "Ver no Google Maps")</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="maps-embed-input">Link Embed do Mapa</label>
+                        <input type="text" id="maps-embed-input" placeholder="https://www.google.com/maps/embed?pb=...">
+                        <small>Link para mostrar o mapa incorporado na página</small>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <div id="notification" class="notification">
+            <i class="fas fa-check-circle"></i>
+            <span id="notification-text"></span>
+        </div>
+    </div>
+
+    <script src="admin-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+{
+  "name": "Nety Variedades & Conveniência",
+  "logo": "https://i.imgur.com/heVmxEt.png",
+  "phone": "(84) 99477-7280",
+  "whatsapp": "5584994777280",
+  "email": "netyvariedadeseconveniencia@gmail.com",
+  "address": "Rua da Matinha Número 16A, Tv. Pitangui - Pitangui, Extremoz - RN, 59575-000",
+  "cnpj": "55.325.785/0001-64",
+  "mapsLink": "https://maps.app.goo.gl/be86h5gMuWKSSyrV6",
+  "mapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.5339796366675!2d-35.223649824978736!3d-5.6355790943455615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3a78ae5fd28ab%3A0x75cc90a9bb2067c9!2sNety%20Variedades%20%26%20Conveni%C3%AAncia!5e0!3m2!1spt-BR!2sbr!4v1763169608267!5m2!1spt-BR!2sbr",
+  "description": "Somos uma empresa comprometida com a qualidade e excelência no atendimento. Oferecemos produtos e serviços de primeira linha para nossos clientes. Nossa missão é superar expectativas e construir relacionamentos duradouros.",
+  "heroTitle": "Bem-vindo à Nety Variedades & Conveniência",
+  "heroSubtitle": "Tudo o que você precisa em um só lugar no litoral",
+  "businessHours": [
+    {
+      "day": "Segunda-feira",
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    },
+    {
+      "day": "Terça-feira",
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    },
+    {
+      "day": "Quarta-feira",
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    },
+    {
+      "day": "Quinta-feira",
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    },
+    {
+      "day": "Sexta-feira",
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    },
+    {
+      "day": "Sábado",
+      "open": "08:00",
+      "close": "12:00",
+      "closed": false
+    },
+    {
+      "day": "Domingo",
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    }
+  ],
+  "paymentMethods": [
+    "PIX",
+    "Dinheiro",
+    "Cartão de Crédito",
+    "Cartão de Débito"
+  ],
+  "whatsappCatalogLink": "",
+  "enableWhatsappButtons": true,
+  "socialMedia": [
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/people/Nety-variedades-e-conveni%C3%AAncia/100051551276129/"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/netyvariedads/"
+    },
+    {
+      "platform": "WhatsApp",
+      "url": "https://wa.me/84994777280"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "https://netyvariedads.wordpress.com/wp-content/uploads/2020/01/20200123_092103.jpg?w=1024",
+      "caption": "Nossa loja"
+    },
+    {
+      "image": "https://netyvariedads.wordpress.com/wp-content/uploads/2020/01/20200123_091713.jpg?w=1024",
+      "caption": "Ambiente interno 1"
+    },
+    {
+      "image": "https://netyvariedads.wordpress.com/wp-content/uploads/2020/01/20200123_091732.jpg?w=1024",
+      "caption": "Ambiente interno 2"
+    },
+    {
+      "image": "https://netyvariedads.wordpress.com/wp-content/uploads/2020/01/20200123_091816.jpg?w=1024",
+      "caption": "Ambiente interno 3"
+    }
+  ],
+  "offers": [
+    {
+      "title": "Cerveja Devassa Puro Malte 350ml (Pack c/ 12)",
+      "description": "Devassa é a cerveja puro malte tropical. Uma cerveja equilibrada, refrescante e fácil de beber, com espuma cremosa e sabor único. A Devassa Puro Malte é produzida com apenas quatro ingredientes: água, lúpulo, malte e levedura. O que garante uma cerveja com mais harmonia, mais encorpada e uma cor muito mais dourada. E você sabe porque a Devassa Puro Malte Tropical é diferente de todas as outras cervejas? Ela foi feita para nosso clima, com menos amargor no paladar e que dá aquela vontade de calçar o chinelo e sair por aí aproveitando o dia. Harmonize a sua cerveja Devassa Puro Malte Tropical com praia, bons amigos e com aquele fim de tarde especial. Devassa. É puro malte. É tropical.",
+      "oldPrice": "45,00",
+      "newPrice": "39,90",
+      "image": "https://ibassets.com.br/ib.item.image.large/l-663767b9d71f4d308b81ce1a54d3fd37.png"
+    },
+    {
+      "title": "",
+      "description": "Produzido com água potável, o gelo em cubos é muito utilizado diretamente nas bebidas, tanto no dia a dia da família, quanto também em bares e restaurantes, na preparação de sucos e coquetéis.",
+      "oldPrice": "8,90",
+      "newPrice": "5,99",
+      "image": "https://courier-images-prod.imgix.net/produc_variant/00008979_35dac32b-11d5-4e9f-b844-bf593f806c26.jpg?auto=compress,format&fit=max&w=undefined&h=undefined&dpr=2?auto=compress,format&fit=max&w=undefined&h=undefined&dpr=2"
+    },
+    {
+      "title": "",
+      "description": "",
+      "oldPrice": "",
+      "newPrice": "",
+      "image": ""
+    }
+  ],
+  "catalog": [
+    {
+      "name": "Produto 1",
+      "description": "Descrição do produto 1",
+      "image": "https://via.placeholder.com/300x200/6366f1/ffffff?text=Produto+1"
+    },
+    {
+      "name": "Produto 2",
+      "description": "Descrição do produto 2",
+      "image": "https://via.placeholder.com/300x200/8b5cf6/ffffff?text=Produto+2"
+    },
+    {
+      "name": "Produto 3",
+      "description": "Descrição do produto 3",
+      "image": "https://via.placeholder.com/300x200/a855f7/ffffff?text=Produto+3"
+    },
+    {
+      "name": "Produto 4",
+      "description": "Descrição do produto 4",
+      "image": "https://via.placeholder.com/300x200/c084fc/ffffff?text=Produto+4"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="site-title">Empresa - Site Institucional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Botão de tema -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img id="header-logo" src="" alt="Logo" class="logo">
+                <h1 id="company-name" class="company-name">Nome da Empresa</h1>
+            </div>
+            <nav class="nav">
+                <a href="#home">Início</a>
+                <a href="#offers">Ofertas</a>
+                <a href="#catalog">Catálogo</a>
+                <a href="#gallery">Galeria</a>
+                <a href="#about">Sobre</a>
+                <a href="#contact">Contato</a>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 id="hero-title">Bem-vindo</h2>
+            <p id="hero-subtitle">Sua empresa, sua solução</p>
+        </div>
+    </section>
+
+    <!-- Logo Destacada -->
+    <section class="logo-showcase">
+        <div class="container">
+            <div class="logo-showcase-content">
+                <img id="showcase-logo" src="" alt="Logo da Empresa" class="showcase-logo-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Ofertas -->
+    <section id="offers" class="section offers">
+        <div class="container">
+            <h2 class="section-title">Ofertas Especiais</h2>
+            <div id="offers-grid" class="offers-grid">
+                <!-- Ofertas serão carregadas aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section id="catalog" class="section catalog">
+        <div class="container">
+            <h2 class="section-title">Nosso Catálogo</h2>
+            <div id="catalog-grid" class="catalog-grid">
+                <!-- Produtos serão carregados aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <h2 class="section-title">Galeria</h2>
+            <div id="gallery-grid" class="gallery-grid">
+                <!-- Imagens serão carregadas aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">Sobre Nós</h2>
+            <div class="about-content">
+                <p id="about-description">Descrição da empresa aqui.</p>
+                
+                <div class="about-details">
+                    <div class="about-block">
+                        <h3><i class="fas fa-phone"></i> Contato</h3>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span id="company-phone">(00) 00000-0000</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span id="company-email">contato@empresa.com</span>
+                        </div>
+                    </div>
+
+                    <div class="about-block">
+                        <h3><i class="fas fa-clock"></i> Horário de Funcionamento</h3>
+                        <div id="business-hours" class="business-hours">
+                            <!-- Horários serão carregados aqui -->
+                        </div>
+                    </div>
+
+                    <div class="about-block">
+                        <h3><i class="fas fa-credit-card"></i> Formas de Pagamento</h3>
+                        <div id="payment-methods" class="payment-methods">
+                            <!-- Formas de pagamento serão carregadas aqui -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section id="contact" class="section location">
+        <div class="container">
+            <h2 class="section-title">Onde Estamos</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p id="company-address">Endereço da empresa</p>
+                        </div>
+                    </div>
+                    <a id="maps-link" href="#" target="_blank" class="btn-maps">
+                        <i class="fab fa-google"></i> Ver no Google Maps
+                    </a>
+                </div>
+                <div id="map-container" class="map-container">
+                    <!-- Mapa será carregado aqui -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes Sociais -->
+    <section class="section social">
+        <div class="container">
+            <h2 class="section-title">Siga-nos nas Redes Sociais</h2>
+            <div id="social-links" class="social-links">
+                <!-- Links sociais serão carregados aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; <span id="current-year"></span> <span id="footer-company-name">Empresa</span>. Todos os direitos reservados.</p>
+                    <p id="company-cnpj" class="cnpj"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

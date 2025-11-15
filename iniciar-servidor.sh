@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "============================================"
+echo "  INICIANDO SERVIDOR LOCAL - V3"
+echo "============================================"
+echo ""
+echo "📡 Servidor iniciando na porta 8000..."
+echo ""
+echo "🌐 Acesse seu site em:"
+echo "   → Site: http://localhost:8000"
+echo "   → Admin: http://localhost:8000/admin/admin.html"
+echo ""
+echo "⚠️  Pressione CTRL+C para parar o servidor"
+echo "============================================"
+echo ""
+python3 -m http.server 8000
